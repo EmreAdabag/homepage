@@ -14,7 +14,7 @@
 
         /* staggering beauty peaking states */
         body.bg-a {
-            background: url(http://www.staggeringbeauty.com/assets/bg.gif);
+            background: url(bg.gif);
         }
         body.bg-b {
             background: #fff;
@@ -49,6 +49,14 @@
         a:hover {
             text-decoration: underline;
             color: #0080ff;
+        }
+
+        #warning {
+            position: fixed;
+            bottom: 10px;
+            left: 10px;
+            z-index: 10;
+            font: bold 11px/16px sans-serif;
         }
     </style>
 </head>
@@ -89,6 +97,12 @@
             [<a href="https://arxiv.org/abs/2309.08079">Paper</a>]
             [<a href="https://github.com/a2r-lab/MPCGPU">Code</a>]
         </p>
+    </div>
+
+    <div id="warning">
+        Flashing lights warning
+        <br>
+        <a href="http://www.staggeringbeauty.com/" style="color: gray;">staggeringbeauty.com</a><br>
     </div>
 
     <script src="traer.js"></script>
